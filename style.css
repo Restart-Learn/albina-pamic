@@ -1,0 +1,112 @@
+
+
+body{
+   background: linear-gradient(100deg,#000000,#df4343);
+    color:aliceblue;
+    margin:0;
+    padding:0;
+    padding-top: var(--bs-navbar-height);
+
+}
+
+
+nav{
+    height: 80px;
+
+    position:fixed;
+    top:0;
+    width:100%;
+    display:flex;
+    padding: 0 20 px;
+    justify-content:space-between;
+    align-items:center;
+ background: linear-gradient(100deg,#df4343,#000000,#000000,#df4343,#000000,#df4343,#000000);
+color:aliceblue;
+     
+}
+nav a{
+    line-height: 1;
+    color:aliceblue;
+    text-decoration:none;
+    margin: 0 10px;
+}
+.navbar-brand{
+    color:aliceblue;
+}
+.nav-link{
+color:aliceblue;
+}
+.btn-outline-success{
+    color: black;
+}
+.form-control {
+color:aliceblue;
+}
+.rounded {
+    margin-left: auto;
+}
+.container{
+    margin-right: auto;
+}
+.col{
+    background-color: #000000;
+
+}
+.col-6{
+  background: linear-gradient(100deg,#e4c410,#ee2121,#000000);
+    
+  border: 2px solid black;
+  padding: 10px;
+ 
+
+
+
+}
+img{
+    margin-left: auto;
+}
+.container{
+    max-width: var(--max-width);
+    margin:0 auto;
+    padding:1rem;
+      justify-content: center;
+  align-items: center;
+min-height: 75vhs;
+}
+.hero{
+ text-align: justify;
+    padding: 0 20px;
+    ;
+}
+.container2{
+     max-width: var(--max-width);
+    margin:0 auto;
+    padding:1rem;
+      justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1{
+    margin-top: 0;
+}
+.ovo{
+    color:#ffffff;
+}
+.contact-card {
+  background: #111;
+  border: 1px solid #dc3545;
+}
+
+.wrapper {
+
+    max-width: 1000px;
+    margin: auto;
+    background-color: #111;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgb(248, 23, 23);
+    transition: all 0.4s ease;
+}
+.section-radovi{
+  margin-top: 100px;
+}

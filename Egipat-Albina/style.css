@@ -1,0 +1,119 @@
+body {
+      margin: 0;
+  min-height: 100vh;
+background-image: url(R.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1{
+    text-align:center;
+    color:whitesmoke;
+}
+.sve{
+display: flex;
+    justify-content: space-between; 
+    align-items: stretch;
+    gap:10px;
+    max-width: 1000px;  
+    margin: 0 auto;    
+}
+.box{
+   background-color: rgb(247, 196, 85);
+   width:300px;
+   padding:10px;
+   border-radius:10px;
+   box-shadow: 0 0 10px rgb(0,0,0,0,1);
+   
+   .box.img{
+    width:100%;
+    height:auto;
+    border-radius:10px;
+    margin-bottom: 10px;
+   }
+}
+.box:hover{
+    transform:scale(1.1);
+}
+.box2{
+    background-color: rgb(247, 196, 85);
+   width:300px;
+
+   padding:10px;
+   border-radius:10px;
+   box-shadow: 0 0 10px rgb(0,0,0,0,1);   
+}
+.box2:hover{
+    transform:scale(1.1);
+}
+.box3{
+       background-color: rgb(247, 196, 85);
+   width:300px;
+
+   padding:10px;
+   border-radius:10px;
+   box-shadow: 0 0 10px rgb(0,0,0,0,1);    
+}
+.box3:hover{
+    transform:scale(1.1);
+}
+
+
+
+.sve1{
+   display: flex;
+    justify-content: space-between; 
+    align-items: stretch;
+    gap:10px;
+    max-width: 1000px;  
+    margin: 0 auto;     
+}
+.tekst{
+  background-color: rgb(247, 196, 85);
+   width:300px;
+
+   padding:20px;
+   border-radius:20px;
+   box-shadow: 0 0 10px rgb(0,0,0,0,1);    
+}
+.tekst:hover{
+    transform:scale(1.1);
+}
+.tekst2{
+    background-color: rgb(247, 196, 85);
+   width:300px;
+
+   padding:20px;
+   border-radius:20px;
+   box-shadow: 0 0 10px rgb(0,0,0,0,1);    
+}
+.tekst2:hover{
+    transform:scale(1.1);
+}
+.tekst3{
+    background-color: rgb(247, 196, 85);
+   width:300px;
+
+   padding:20px;
+   border-radius:20px;
+   box-shadow: 0 0 10px rgb(0,0,0,0,1);    
+}
+.tekst3:hover{
+    transform:scale(1.1);
+}
+
+.navigacija{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+align-items: center;
+color:aliceblue;
+margin:right;
+justify-content: none;
+list-style:none;
+}
+nav a{
+    color:white;
+}
